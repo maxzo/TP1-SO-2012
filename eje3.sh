@@ -1,4 +1,5 @@
 #!/bin/bash
+
 cd /usr/share/dict/
 
 rep=$(grep -c 'tato' american-english)
