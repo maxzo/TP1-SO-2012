@@ -1,4 +1,5 @@
 #!/bin/bash
+
 echo -e "\nIngrese el nombre del directorio 1: "
 read dir1
 mkdir $1/$dir1
