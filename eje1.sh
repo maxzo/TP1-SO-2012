@@ -21,6 +21,3 @@ do
 	let lineas=lineas+1
 done < /etc/passwd > $1/archivo3.txt
 echo "El archivo contiene $lineas lineas"
-
-#/home/so2011/Desktop
-
