@@ -16,3 +16,4 @@ if [ $3 -gt 0 ] ; then
 		echo "Cantidad de caracteres: $(wc -m < $2)" >> $2
 	done
 fi
+
