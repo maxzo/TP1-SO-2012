@@ -26,3 +26,8 @@ elif [ $1 = 't' ] ; then
 elif [ $1 = 'i' ] ; then
 	ls -i
 fi
+
+#REVISAR PORQUE TIRA ESTE ERROR AL EJECUTAR
+#./eje4.sh: line 13: [: =: unary operator expected
+#./eje4.sh: line 15: [: =: unary operator expected
+#./eje4.sh: line 26: [: =: unary operator expected
