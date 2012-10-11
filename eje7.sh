@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd $1
-la | sort
+ls | sort
 echo ""
 if [ $(ls -d c* | wc -w -ne 0 ] ; then
 	echo "Existen archivos que comienzan con la letra c"
